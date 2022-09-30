@@ -5,7 +5,7 @@
 	const { session } = stores();
 
 	let username = '';
-	let email = '';
+	let Name = '';
 	let password = '';
 	let errors = null;
 
@@ -41,7 +41,7 @@
 						<input class="form-control form-control-lg" type="text" required placeholder="Your Name" bind:value={username}>
 					</fieldset>
 					<fieldset class="form-group">
-						<input class="form-control form-control-lg" type="email" required placeholder="Email" bind:value={email}>
+						<input class="form-control form-control-lg" type="Text" required placeholder="Name" bind:value={Name}>
 					</fieldset>
 					<fieldset class="form-group">
 						<input class="form-control form-control-lg" type="password" required placeholder="Password" bind:value={password}>
