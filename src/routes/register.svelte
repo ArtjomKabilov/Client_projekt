@@ -57,6 +57,7 @@
                     <button class="btn btn-lg btn-primary pull-xs-right" disabled="{password.length < 6}">
                         Sign up
                     </button>
+
                 </form>
             </div>
         </div>

@@ -1,9 +1,7 @@
 import * as api from 'api.js';
 
 export function post(req, res) {
-    const user = req.body;
-
-    api.post('user',user ).then(response => {
+    api.post('sessions',req.body ).then(response => {
         if (response.user) {
             req.session.user = response.user;
         }
